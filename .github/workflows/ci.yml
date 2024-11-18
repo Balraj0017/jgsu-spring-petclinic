@@ -21,4 +21,4 @@ jobs:
     #     distribution: 'adoptopenjdk'
 
     - name: Package with maven
-      run: ./mvnw package
+      run: java -jar target/*.jar
