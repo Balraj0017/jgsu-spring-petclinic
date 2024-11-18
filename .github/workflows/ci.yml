@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted  # Ensure the self-hosted runner has Java and Maven installed
+    runs-on: SHTLP0096
 
     steps:
     - name: Checkout code
