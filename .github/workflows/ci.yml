@@ -21,4 +21,6 @@ jobs:
     #     distribution: 'adoptopenjdk'
 
     - name: Package with maven
+      run: ./mvnw package
+    - name: Hosting the website
       run: java -jar target/*.jar
