@@ -29,5 +29,8 @@ jobs:
   checking_secret_variable:
     runs-on: self-hosted
     steps:
+    
     - name: testing the variabless
-      run: echo "my designation is $FIELD"
+      run: echo "my designation is $MY_VARIABLE"
+    env:
+        MY_VARIABLE: ${{ vars.field }}
