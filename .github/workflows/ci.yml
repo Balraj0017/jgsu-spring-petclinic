@@ -29,5 +29,5 @@ jobs:
   checking_secret_variable:
     runs-on: self-hosted
     steps:
-    - name: testing the variables
-      run: echo "my designation is $field"
+    - name: testing the variabless
+      run: echo "my designation is $FIELD"
